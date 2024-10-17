@@ -1,0 +1,36 @@
+div .payment__container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1135px;
+    /* background-color: rgb(209, 209, 209);
+     */
+    align-items: center;
+}
+div .payment__container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 3rem;
+
+}
+div .payment__container p {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #888;
+}
+div .payment__container .link__block {
+    display: flex;
+    gap: 2rem !important;
+    transition-duration: 4ms !important;
+}
+
+div .payment__container .link__block a:hover {
+    transform: scale(1.05);
+    transition: transform 0.4s ease-in-out;
+}
+
+div .payment__container .link__block a:not(:hover) {
+    transform: scale(1);
+}
